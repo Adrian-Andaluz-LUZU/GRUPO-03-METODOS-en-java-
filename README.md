@@ -65,3 +65,22 @@ public int calcularArea(double base, double altura) {
 \`\`\`
 
 ---
+## Ejercicio 2: Métodos void para acciones directas
+
+### 📌 Enunciado
+Crear un método en una clase llamada `Bienvenida` que reciba `String nombre` e `int edad`, e imprima un saludo en consola indicando ambos datos[cite: 3].
+
+### 🔍 Explicación del Tipo de Retorno
+* **Tipo de retorno:** `void`[cite: 3].
+* **Justificación:** El método se encarga exclusivamente de una tarea de salida (mostrar texto en pantalla mediante `System.out.println`) sin requerir el cálculo de un valor que deba ser devuelto (`return`) al flujo principal del programa.
+
+### 💻 Implementación
+\`\`\`java
+public class Bienvenida {
+    public void mostrarBienvenida(String nombre, int edad) {
+        System.out.println("Hola " + nombre + ", tienes " + edad + " años. ¡Bienvenido al sistema!");
+    }
+}
+\`\`\`
+
+---
