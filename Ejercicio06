@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Ejercicio6 {
+
+    public static boolean verificarEdad(int edad) {
+        if (edad < 0 || edad > 120) {
+            System.out.println("Edad inválida");
+            return false;
+        }
+
+        return true;
+    }
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.print("Ingrese su edad: ");
+        int edad = teclado.nextInt();
+
+        boolean resultado = verificarEdad(edad);
+
+        if (resultado) {
+            System.out.println("Edad válida");
+        }
+
+        teclado.close();
+    }
+}
