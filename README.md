@@ -84,3 +84,17 @@ public class Bienvenida {
 \`\`\`
 
 ---
+
+## Ejercicio 3: Parámetros vs. Argumentos
+
+### 📌 Enunciado
+Identificar parámetros y argumentos en un fragmento de código Java y explicar su diferencia[cite: 4].
+
+### 🔍 Identificación
+* **Parámetros:** `x` e `y` (definidos en la cabecera del método `public double multiplicar(double x, double y)`).
+* **Argumentos:** `4.0` y `5.0` (los valores reales enviados al invocar el método: `miObjeto.multiplicar(4.0, 5.0)`).
+
+### 📖 Diferencia Clave
+* **Parámetro:** Variable local definida en la firma del método que actúa como receptora de datos.
+* **Argumento:** Valor real (o literal/variable con datos) que se suministra al método al momento de llamarlo.
+---
